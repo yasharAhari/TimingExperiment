@@ -14,7 +14,7 @@ To start, we create a snapshot of the existing VM, for this,
 
 * On the left menu select ```Snapshots```
 
-  ![Select Snapshots](images\GoToSnapShots.png)
+  ![Select Snapshots](\images\GoToSnapShots.png)
 
 * Now Press ```Create Snapshot``` on to menu bar
 
