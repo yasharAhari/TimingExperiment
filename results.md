@@ -4,16 +4,16 @@
 
 ### List of all Instances and numbers on the latest run
 
-|       Region       |  Zone   |      Type      | Technology | Address                                            | Time In Microseconds |
+|       Region       |  Zone   |      Type      | Technology | Address                                            | Average Time In Microseconds |
 | :----------------: | :-----: | :------------: | :--------: | :------------------------------------------------- | -------------------- |
-|    us-central1     |    a    | Compute Engine |   Python   | http://34.66.236.240/                              | missing              |
-|      us-central1   |     a   | Compute Engine |    Java    | http://35.202.141.106/randNum/                     | missing              |
-|      us-central1   | a |   App Engine   |   Python   | http://pyrandomnumbergenerator.appspot.com/              | missing              |
-|      us-central1       | a |   App Engine   |    Java    | http://java-random-number-generator.appspot.com/demo                                            | missing              |
-| southamerica-east1 |    a    | Compute Engine |   python   | [http://34.95.171.137](http://34.95.171.137/)      | 366023.06            |
-| southamerica-east1 |    a    | Compute Engine |    Java    | http://34.95.224.56/randNum/  | missing              |
-| southamerica-east1 |    a    |   App Engine   |   Python   | https://timing-experiment-sa-zonea.appspot.com/    | 1214754.10           |
-| southamerica-east1 |    a    |   App Engine   |    Java    | https://timing-experiment-sa-java.appspot.com/demo | 593413.35            |
+|    us-central1     |    a    | Compute Engine |   Python   | http://34.66.236.240/                               | 61760.568   |
+|      us-central1   |     a   | Compute Engine |    Java    | http://35.202.141.106/randNum/                      | 56172.03712 |
+|      us-central1   | a       |   App Engine   |   Python   | http://pyrandomnumbergenerator.appspot.com/         | 59180.18818 |
+|      us-central1   | a       |   App Engine   |    Java    | http://java-random-number-generator.appspot.com/demo| 66976.97639 |
+| southamerica-east1 |    a    | Compute Engine |   python   | [http://34.95.171.137](http://34.95.171.137/)       | 291035.7237 |
+| southamerica-east1 |    a    | Compute Engine |    Java    | http://34.95.224.56/randNum/                        | 298896.8611 |
+| southamerica-east1 |    a    |   App Engine   |   Python   | https://timing-experiment-sa-zonea.appspot.com/     | 1203671.837 |
+| southamerica-east1 |    a    |   App Engine   |    Java    | https://timing-experiment-sa-java.appspot.com/demo  | 502744.4363 |
 
 
 ### Experiments
