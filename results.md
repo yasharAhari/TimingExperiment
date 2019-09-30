@@ -2,6 +2,40 @@
 
 
 
+#### Methodology 
+
+The Experiment conducted by measuring the request and access time for each of the instances for TEN times. Then the average is calculated. 
+
+The result of the experiment is shown bellow in the chart. The blue bars are showing the average respond time for servers located in United States, "us-central-a" and orange bars shows the respond time for the servers located in South America "southamerica-a". The Experiment conducted using the Wi-Fi in University of Oklahoma, Norman, OK.
+
+This Experiment conducted using the python script (https://github.com/agracy2246/RandomTiming) which is running in a Windows 10 Operating System. 
+
+#### Observations
+
+As Expected, there is a massive difference between the servers located in US and servers located in south America.  
+
+![](/images/Chart.png)
+
+The comparison between US servers shown in the chart bellow, with the fastest of VM java and slowest of App engine Java. 
+
+![](images/Chart2.png)
+
+And the results for South-America servers as follows: 
+
+![](images/Chart3.png) 
+
+
+
+#### Possible Errors
+
+* This experiment used a python script running in a windows machine to conduct the experiment; therefore, the measured time may not be accurate reflection of the actual latency. Other processes running on the Operating System might caused extra latency measurements. 
+
+* This experiment conducted using a Wi-Fi in a public network, in which might added extra latency.
+
+* The servers that running VM and app-engines might not be in equal configuration in terms of dedicated hardware resources. 
+
+
+
 ### List of all Instances and numbers on the latest run
 
 |       Region       |  Zone   |      Type      | Technology | Address                                            | Average Time In Microseconds |
@@ -15,8 +49,31 @@
 | southamerica-east1 |    a    |   App Engine   |   Python   | https://timing-experiment-sa-zonea.appspot.com/     | 1203671.837 |
 | southamerica-east1 |    a    |   App Engine   |    Java    | https://timing-experiment-sa-java.appspot.com/demo  | 502744.4363 |
 
-
 ### Experiments
+
+The immediate output of the script for each run. 
+
+The Order is as follows: 
+
+1-US VM python
+
+2-US VM Java
+
+3-US App Engine python
+
+4-US App Engine Java
+
+5-SA VM python
+
+6-SA VM Java
+
+7-SA App Engine Python
+
+8-SA App Engine Java 
+
+
+
+
 
 Run 001:
 
