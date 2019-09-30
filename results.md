@@ -8,8 +8,8 @@
 | :----------------: | :-----: | :------------: | :--------: | :------------------------------------------------- | -------------------- |
 |    us-central1     |    a    | Compute Engine |   Python   | http://34.66.236.240/                              | missing              |
 |      missing       | missing | Compute Engine |    Java    | missing                                            | missing              |
-|      missing       | missing |   App Engine   |   Python   | http://pyrandomnumbergenerator.appspot.com/                                            | missing              |
-|      missing       | missing |   App Engine   |    Java    | http://java-random-number-generator.appspot.com/demo                                            | missing              |
+|      us-central1      | a |   App Engine   |   Python   | http://pyrandomnumbergenerator.appspot.com/                                            | missing              |
+|      us-central1       | a |   App Engine   |    Java    | http://java-random-number-generator.appspot.com/demo                                            | missing              |
 | southamerica-east1 |    a    | Compute Engine |   python   | [http://34.95.171.137](http://34.95.171.137/)      | 366023.06            |
 | southamerica-east1 |    a    | Compute Engine |    Java    | missing                                            | missing              |
 | southamerica-east1 |    a    |   App Engine   |   Python   | https://timing-experiment-sa-zonea.appspot.com/    | 1214754.10           |
