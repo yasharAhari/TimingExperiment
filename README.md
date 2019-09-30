@@ -1,6 +1,14 @@
 ## Timing Experiment 
 
-### How to move a VM to other region and zones in Google Could 
+
+
+#### Experiment results are [here](https://github.com/yasharAhari/TimingExperiment/blob/master/results.md).
+
+
+
+### Other Documentations: 
+
+#### How to move a VM to other region and zones in Google Could 
 
 For this operation, you need to have an already existing google cloud VM. You can create a new one using the instruction [here](https://github.com/ZachArani/RandomNumberGCP).
 
