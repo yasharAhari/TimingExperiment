@@ -7,11 +7,11 @@
 |       Region       |  Zone   |      Type      | Technology | Address                                            | Time In Microseconds |
 | :----------------: | :-----: | :------------: | :--------: | :------------------------------------------------- | -------------------- |
 |    us-central1     |    a    | Compute Engine |   Python   | http://34.66.236.240/                              | missing              |
-|      missing       | missing | Compute Engine |    Java    | missing                                            | missing              |
-|      us-central1      | a |   App Engine   |   Python   | http://pyrandomnumbergenerator.appspot.com/                                            | missing              |
+|      us-central1   |     a   | Compute Engine |    Java    | http://35.202.141.106/randNum/                     | missing              |
+|      us-central1   | a |   App Engine   |   Python   | http://pyrandomnumbergenerator.appspot.com/              | missing              |
 |      us-central1       | a |   App Engine   |    Java    | http://java-random-number-generator.appspot.com/demo                                            | missing              |
 | southamerica-east1 |    a    | Compute Engine |   python   | [http://34.95.171.137](http://34.95.171.137/)      | 366023.06            |
-| southamerica-east1 |    a    | Compute Engine |    Java    | missing                                            | missing              |
+| southamerica-east1 |    a    | Compute Engine |    Java    | http://34.95.224.56/randNum/  | missing              |
 | southamerica-east1 |    a    |   App Engine   |   Python   | https://timing-experiment-sa-zonea.appspot.com/    | 1214754.10           |
 | southamerica-east1 |    a    |   App Engine   |    Java    | https://timing-experiment-sa-java.appspot.com/demo | 593413.35            |
 
